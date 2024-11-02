@@ -294,6 +294,31 @@ h3 {
         </div>
     </div>
 </div>
+<style>
+    #experience-timeline {
+    padding-top: 10px;
+}
+
+.timeline-entry {
+    padding: 15px 0; /* Adds consistent spacing between entries */
+    border-left: 2px solid #ccc; /* Optional: Creates a timeline effect */
+    margin-left: 20px;
+}
+
+.timeline-entry h3, .timeline-entry h4 {
+    margin: 0;
+}
+
+/* Style the date to appear aligned */
+.timeline-entry::before {
+    content: attr(data-date);
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+</style>
     <!-- End #experience -->
 
     <div id="education">
