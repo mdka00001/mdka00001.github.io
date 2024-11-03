@@ -100,7 +100,7 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
+                    <p class="section-content">
                         As a dedicated Bioinformatics developer with over three years of experience, 
                         I specialize in managing and optimizing workflows for transcriptomic and epigenomic 
                         next-generation sequencing (NGS) data analysis, leading multi-omics research, and 
@@ -228,7 +228,7 @@
     <style>
     .container {
         display: flex;
-        align-items: flex-start; /* Aligns content to the top for consistent alignment */
+        align-items: flex-start;
     }
     
     .section-heading {
@@ -240,33 +240,42 @@
     .tech-logos {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px; /* Adjusts space between logo items */
+        gap: 20px;
     }
     
     .tech-item {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center the logos and text */
-        text-align: center; /* Center text below the logos */
-        height: 100px; /* Fixed height to ensure uniform spacing */
+        align-items: center;
+        text-align: center;
+        height: 100px;
     }
     
     .logo {
-        width: 50px; /* Adjusts size of logos */
+        width: 50px;
         height: auto;
-        margin-bottom: 5px; /* Space between logo and label */
+        margin-bottom: 5px;
     }
     
     h2.heading {
-        text-align: left; /* Ensures About Me and Skills are left-aligned */
+        text-align: left;
     }
     
     h3.section-title {
         margin-top: 20px;
-        text-align: left; /* Aligns section title to the left */
+        text-align: left;
+    }
+    
+    .section-content {
+        margin-top: 10px;
+    }
+    
+    .row {
+        display: flex;
+        align-items: flex-start;
     }
     </style>
-    
+        
 
 
 <div id="experience", class="background-alt">
